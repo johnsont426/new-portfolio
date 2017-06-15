@@ -67,9 +67,6 @@ body {
 img {
 	max-width: 100%;
 }
-html, body, main, header {
-	height: 100%;
-}
 .flex {
 	display: flex;
 }
@@ -80,7 +77,7 @@ html, body, main, header {
 
 /*  Header  */
 header {
-	
+	height: 100%;
 }
 nav {
 	padding: 30px 0;
@@ -143,7 +140,7 @@ header h1 {
 	font-weight: bold;
 	padding: 60px 10% 50px 10%;
 }
-.header-img {
+.header-img-div {
 	width: 100%;
 	height: 400px;
 	overflow: hidden;
@@ -190,7 +187,7 @@ main {
 }
 .link-button {
 	font-size: 1.3em;
-	font-weight: bold;
+	color: rgb(0, 152, 212);
 	width: 150px;
 	border: 3px solid rgb(0, 152, 212);
   padding: 14px 25px;
@@ -198,7 +195,7 @@ main {
   display: block;
   margin: 50px auto;
 }
-.link-button:hover, .link-button:visited {
+.link-button:hover {
 	background-color: rgb(0, 152, 212);
 	color: white;
 }
@@ -227,5 +224,25 @@ main {
 .project-detail-div {
 	width: 60%;
 	padding: 20px;
+}
+
+/*  footer  */
+
+footer p {
+	margin: 30px;
+	text-align: center;
+}
+.social-links {
+	margin: 20px auto;
+	width: 20%;
+	justify-content: center;
+}
+.social-links a {
+	display: block;
+	margin: 10px;
+	font-size: 2em;
+}
+.social-links a:hover {
+	color: rgb(0, 152, 212);
 }
 
