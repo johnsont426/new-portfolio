@@ -1,5 +1,4 @@
-/*CSS RESET*/
-
+/*  CSS RESET  */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,7 +46,37 @@ a {
 	color: black;
 	text-decoration: none;
 }
+/*  Fonts  */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 
+/*  clearfix  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+
+/*  Global  */
+body {
+	font-family: 'Droid Serif', serif;
+	color: rgb(73, 76, 78);
+}
+img {
+	max-width: 100%;
+}
+html, body, main, header, .main-content {
+	height: 100%;
+}
+.flex {
+	display: flex;
+}
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 /*  Header  */
 header {
@@ -64,8 +93,9 @@ nav ul {
 	text-align: right;
 }
 nav li {
+	font-size: 1.2em;
 	display: inline;
-	margin-right: 3%;
+	margin-right: 2%;
 }
 nav li:last-child{
 	margin-right: 0;
@@ -75,15 +105,17 @@ nav li:hover {
 }
 .container {
 	width: 90%;
-	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 .logo {
 	position: relative;
-	width: 40px;
-	height: 40px;
+	width: 48px;
+	height: 48px;
 	float: left;
 }
 .logo:before {
+	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -96,8 +128,9 @@ nav li:hover {
 	transform: rotate(90deg);
 }
 .logo a {
+	font-size: 18px;
 	display: block;
-	margin: 15px 14px;
+	margin: 15px 16px;
 	font-weight: bold;
 	z-index: 2;
 	position: relative;
@@ -105,4 +138,91 @@ nav li:hover {
 .logo a:hover {
 	color: rgb(0, 152, 212);
 }
+header h1 {
+	font-size: 2.2em;
+	font-weight: bold;
+	padding: 60px 10% 50px 10%;
+}
+.header-img {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+header img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -70px;
+}
 
+/*  front page main content */
+main {
+	margin-top: 40px;
+}
+.main-content {
+	margin: 10px 10%;
+	padding-top: 30px;
+	border-bottom: 2px solid rgb(224, 225, 226);
+}
+.main-content h1 {
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.main-content h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(0, 152, 212);
+	margin-bottom: 20px;
+}
+.main-content p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+}
+#brief-about h1{
+	text-align: center;
+}
+#brief-about h2{
+	text-align: center;
+}
+#brief-about p{
+	text-align: center;
+}
+.link-button {
+	font-size: 1.3em;
+	font-weight: bold;
+	width: 150px;
+	border: 3px solid rgb(0, 152, 212);
+  padding: 14px 25px;
+  text-align: center; 
+  display: block;
+  margin: 50px auto;
+}
+.link-button:hover, .link-button:visited {
+	background-color: rgb(0, 152, 212);
+	color: white;
+}
+.dec-imgs-div {
+	margin: 100px auto;
+	width: 800px;
+	height: 185px;
+	overflow: hidden;
+}
+.dec-img {
+	margin-right: 20px;
+	width: 185px;
+	height: auto;
+}
+.dec-img:last-child {
+	margin-right: 0;
+}
+.project-img {
+	width: 300px;
+	height: 200px;
+	margin: 0 30px;
+}
+.project-detail-div {
+	width: 60%;
+	padding: 20px;
+}
