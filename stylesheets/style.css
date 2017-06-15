@@ -67,7 +67,7 @@ body {
 img {
 	max-width: 100%;
 }
-html, body, main, header, .main-content {
+html, body, main, header {
 	height: 100%;
 }
 .flex {
@@ -160,7 +160,7 @@ main {
 	margin-top: 40px;
 }
 .main-content {
-	margin: 10px 10%;
+	margin: 10px 10% 30px 10%;
 	padding-top: 30px;
 	border-bottom: 2px solid rgb(224, 225, 226);
 }
@@ -182,12 +182,11 @@ main {
 }
 #brief-about h1{
 	text-align: center;
-}
-#brief-about h2{
-	text-align: center;
+	color: rgb(0, 152, 212);
 }
 #brief-about p{
 	text-align: center;
+	margin-top: 5%;
 }
 .link-button {
 	font-size: 1.3em;
@@ -217,6 +216,9 @@ main {
 .dec-img:last-child {
 	margin-right: 0;
 }
+.project-div {
+	margin-top: 5%;
+}
 .project-img {
 	width: 300px;
 	height: 200px;
@@ -226,3 +228,4 @@ main {
 	width: 60%;
 	padding: 20px;
 }
+
