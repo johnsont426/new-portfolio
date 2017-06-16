@@ -215,14 +215,15 @@ main {
 }
 .project-div {
 	margin-top: 5%;
+	display: flex;
 }
 .project-img {
-	width: 300px;
-	height: 200px;
+	width: 275px;
+	height: 190px;
 	margin: 0 30px;
 }
 .project-detail-div {
-	width: 60%;
+	width: 55%;
 	padding: 20px;
 }
 
@@ -246,3 +247,29 @@ footer p {
 	color: rgb(0, 152, 212);
 }
 
+@media screen and (max-width: 1160px){
+	.featured-projects {
+		display: flex;
+		justify-content: space-between;
+	}
+	#second-project-img {
+		order: -1;
+	}
+	.project-div {
+		flex-basis: 30%;
+		align-content: flex-start;
+	}
+	.project-img {
+		width: 200px;
+		height: 150px;
+		margin: 0;
+	}
+	.project-detail-div {
+		width: 100%;
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 1110px){
+	
+}
