@@ -1,0 +1,18 @@
+.about {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.about img {
+	width: 40%;
+	height: auto;
+}
+#about-text {
+	width: 55%;
+}
+#about-text p {
+	font-size: 1em;
+}
+#about-text .link-button {
+	width: 300px;
+	padding: 14px 10px;
+}
