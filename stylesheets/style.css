@@ -326,3 +326,26 @@ footer p {
 		height: 130px;
 	}
 }
+
+@media screen and (max-width: 730px){
+	.featured-projects {
+		justify-content: center;
+
+	}
+	.project-div {
+		flex-wrap: wrap;
+		width: 90%;
+		justify-content: center;
+		margin: 30px auto 40px auto;
+	}
+	.project-div h2, .project-div p {
+		text-align: center;
+	}
+	.project-img {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	.main-content h1 {
+		text-align: center;
+	}
+}

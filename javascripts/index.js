@@ -1,4 +1,8 @@
 $(function(){
+	socialButton();
+})
+
+function socialButton(){
 	$(".social-button").on("click", function(e){
 		var $ul = $(this).parents("ul");
 		if($ul.hasClass("show")){
@@ -8,4 +12,6 @@ $(function(){
 		}
 		e.preventDefault();
 	})
-})
+}
+
+
