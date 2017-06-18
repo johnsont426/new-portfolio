@@ -1,5 +1,6 @@
 $(function(){
 	socialButton();
+	navIcon();
 })
 
 function socialButton(){
@@ -14,4 +15,18 @@ function socialButton(){
 	})
 }
 
+function navIcon(){
+	$('#nav-icon').click(function(){
+		$(this).toggleClass('open');
+		showHiddenMenu();
+	});
+}
 
+function showHiddenMenu(){
+	var $hm = $(".hidden-menu");
+	if($hm.hasClass('hidden-menu-show')){
+		$hm.toggleClass("hidden-menu-show")
+	}else {
+		$hm.addClass('hidden-menu-show')
+	}
+}
