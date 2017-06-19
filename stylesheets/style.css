@@ -176,6 +176,7 @@ header img {
 	height: auto;
 	position: relative;
 	top: -70px;
+	animation: fadeIn 4s;
 }
 .hidden-menu {
 	display: flex;
@@ -207,6 +208,10 @@ header img {
 .hidden-menu-show {
 	opacity: 0.95;
 	z-index: 2;
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
 
 /*  hamberger icon  */
@@ -437,6 +442,9 @@ footer p {
 }
 
 @media screen and (max-width: 730px){
+	.container {
+		width: 100%;
+	}
 	.featured-projects {
 		justify-content: center;
 
