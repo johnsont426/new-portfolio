@@ -89,7 +89,6 @@ img {
 
 header {
 	height: 100%;
-	/*position: relative;*/
 }
 nav {
 	padding: 30px 0;
@@ -103,7 +102,7 @@ nav ul {
 	list-style: none;
 	text-align: right;
 	position: absolute;
-	right: -70px;
+	right: -105px;
 	transition: right 0.7s ease-in;
 }
 nav li {
@@ -223,7 +222,6 @@ header img {
   position: absolute;
   top: 35px;
   right: 30px;
-  /*margin: 50px auto;*/
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -289,8 +287,6 @@ header img {
   transform: rotate(-135deg);
 }
 
-
-
 /*  front page main content */
 
 main {
@@ -299,7 +295,6 @@ main {
 .main-content {
 	margin: 10px 10% 30px 10%;
 	padding-top: 30px;
-	border-bottom: 2px solid rgb(224, 225, 226);
 }
 .main-content h1 {
 	font-size: 2.2em;
@@ -316,6 +311,9 @@ main {
 	font-size: 1.2em;
 	line-height: 1.5em;
 	margin-bottom: 30px;
+}
+#brief-about {
+	border-bottom: 2px solid rgb(224, 225, 226);
 }
 #brief-about h1{
 	text-align: center;
@@ -370,10 +368,36 @@ main {
 }
 
 /*  footer  */
-
+footer {
+	border-top: 1px solid rgb(240, 238, 238);
+}
 footer p {
 	margin: 30px;
 	text-align: center;
+}
+.contact {
+	border-bottom: 1px solid rgb(240, 238, 238);
+}
+.contact h1 {
+	font-size: 1.5em;
+	text-align: center;
+}
+.contact a {
+	font-size: 1.3em;
+	color: rgb(0, 152, 212);
+	width: 130px;
+	border-bottom: 2px solid rgb(0, 152, 212);
+	padding-bottom: 3px;
+	text-align: center; 
+  display: block;
+  margin: 50px auto;
+  transition: 0.4s;
+}
+.contact a i{
+	transition: 0.5s; 
+}
+.contact a:hover i{
+	transform: translateX(7px);
 }
 
 /*  media query  */

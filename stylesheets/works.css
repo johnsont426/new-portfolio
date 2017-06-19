@@ -33,6 +33,7 @@
 .more-detail {
 	color: white;
 	border: 2px solid rgb(0, 152, 212);
+	border-radius: 6px;
 	padding: 10px 15px;
 	display: block;
 	padding: 2% auto;
@@ -47,6 +48,12 @@
 	z-index: 1;
 	visibility: hidden;	
 	transition: 0.5s ease-out;
+}
+.more-detail i {
+	transition: transform 0.5s; 
+}
+.more-detail:hover i {
+	transform: translateX(7px);
 }
 .project-img-container:hover .middle {
 	opacity: 0.8;
