@@ -85,7 +85,7 @@
 		width: 240px;
 	}
 }
-@media (pointer:fine){
+@media (pointer:none){
 	.middle, .more-detail {
 		z-index: -10;
 	}
