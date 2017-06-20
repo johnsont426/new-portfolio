@@ -85,7 +85,7 @@
 		width: 240px;
 	}
 }
-@media (pointer:none){
+@media screen and (pointer:none){
 	.more-detail, .middle {
 		display: none;
 	}
