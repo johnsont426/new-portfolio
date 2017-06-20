@@ -86,13 +86,7 @@
 	}
 }
 @media (pointer:none){
-	.project-img-container a:first-child, .project-img-container img {
-		z-index: 10;
-	}
-	.more-detail {
-		z-index: -10;
-	}
-	.middle {
-		z-index: -10;
+	.more-detail, .middle {
+		display: none;
 	}
 }
