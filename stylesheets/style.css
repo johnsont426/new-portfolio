@@ -499,3 +499,17 @@ footer p {
 		margin-top: 0;
 	}
 }
+@media screen and (max-width: 550px){
+	.header-img-div {
+		height: 350px;
+	}
+}
+@media screen and (max-width: 415px){
+	.header-img-div {
+		height: 300px;
+	}
+	header h1 {
+		font-size: 1.8em;
+		margin-bottom: 100px;
+	}
+}

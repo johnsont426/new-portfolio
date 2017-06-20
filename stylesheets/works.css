@@ -86,7 +86,7 @@
 	}
 }
 @media (pointer:none){
-	.project-img-container img {
+	.project-img-container a:first-child, .project-img-container img {
 		z-index: 10;
 	}
 	.more-detail {
