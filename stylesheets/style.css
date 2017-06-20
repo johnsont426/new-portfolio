@@ -46,8 +46,6 @@ a {
 	color: black;
 	text-decoration: none;
 }
-/*  Fonts  */
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 
 /*  clearfix  */
 .group:before,
@@ -61,7 +59,7 @@ a {
 
 /*  Global  */
 body {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Spectral', serif;
 	color: rgb(73, 76, 78);
 	border: 7px solid rgb(73, 76, 78);
 }
@@ -161,8 +159,8 @@ nav li:hover {
 	color: rgb(0, 152, 212);
 }
 header h1 {
-	font-size: 2.2em;
 	font-weight: bold;
+	font-size: 2.2em;
 	margin: 60px 10% 50px 10%;
 }
 .header-img-div {
@@ -326,7 +324,7 @@ main {
 .link-button {
 	font-size: 1.3em;
 	color: rgb(0, 152, 212);
-	width: 150px;
+	width: 170px;
 	border: 3px solid rgb(0, 152, 212);
   padding: 14px 25px;
   text-align: center; 
