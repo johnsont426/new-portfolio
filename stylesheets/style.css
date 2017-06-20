@@ -495,4 +495,7 @@ footer p {
 	#nav-icon {
 		display: initial;
 	}
+	main {
+		margin-top: 0;
+	}
 }

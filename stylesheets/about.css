@@ -31,3 +31,8 @@
 		width: 100%;
 	}
 }
+@media screen and (max-width: 400px){
+	#about-text .link-button {
+		width: 150px;
+	}
+}
