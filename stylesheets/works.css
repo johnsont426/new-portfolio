@@ -84,5 +84,9 @@
 	.project-img-container {
 		width: 240px;
 	}
-
+}
+@media (pointer:fine){
+	.middle, .more-detail {
+		z-index: -10;
+	}
 }
