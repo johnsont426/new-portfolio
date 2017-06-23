@@ -6,11 +6,7 @@ $(function(){
 function socialButton(){
 	$(".social-button").on("click", function(e){
 		var $ul = $(this).parents("ul");
-		if($ul.hasClass("show")){
-			$ul.toggleClass("show")
-		}else {
-			$ul.addClass("show")
-		}
+		$ul.toggleClass("show");
 		e.preventDefault();
 	})
 }
@@ -24,9 +20,5 @@ function navIcon(){
 
 function showHiddenMenu(){
 	var $hm = $(".hidden-menu");
-	if($hm.hasClass('hidden-menu-show')){
-		$hm.toggleClass("hidden-menu-show")
-	}else {
-		$hm.addClass('hidden-menu-show')
-	}
+	$hm.toggleClass("hidden-menu-show");
 }
