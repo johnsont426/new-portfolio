@@ -358,6 +358,7 @@ main {
 .project-div {
 	margin-top: 5%;
 	display: flex;
+	justify-content: space-around;
 }
 .project-img {
 	width: 275px;
